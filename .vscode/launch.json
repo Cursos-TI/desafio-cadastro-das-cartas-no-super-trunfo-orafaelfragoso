@@ -1,0 +1,25 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Debug supertrunfo",
+      "type": "cppdbg",
+      "request": "launch",
+      "program": "${workspaceFolder}/supertrunfo",
+      "args": [],
+      "stopAtEntry": false,
+      "cwd": "${workspaceFolder}",
+      "environment": [],
+      "externalConsole": false,
+      "MIMode": "lldb",
+      "preLaunchTask": "build",
+      "setupCommands": [
+        {
+          "description": "Habilitar Pretty Printing no LLDB",
+          "text": "settings set target.inline-breakpoint-strategy always",
+          "ignoreFailures": true
+        }
+      ]
+    }
+  ]
+}

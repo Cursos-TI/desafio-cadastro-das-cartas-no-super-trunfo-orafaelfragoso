@@ -1,0 +1,19 @@
+# Objetos gerados pela compilação
+*.o
+*.obj
+
+# Executáveis
+supertrunfo
+*.exe
+*.out
+
+# Arquivos do Makefile
+build/
+
+# Arquivos temporários
+*~
+*.swp
+*.swo
+
+# Diretórios do sistema
+.DS_Store
